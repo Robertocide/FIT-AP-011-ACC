@@ -1,0 +1,66 @@
+<!--html inicial de la aplicación. Funciones de entrada de usuario y password, 
+sin acceso a base de datos-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Las etiquetas meta 3 deben estar primero en el encabezado -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+<title>INICIO - ACCUMAPGEO</title>
+
+    <!-- Importa Tecno Bootstrap desde CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 truco para grafica en desktop Windows 8-->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Estilo propio de la plantilla -->
+    <link href="signin.css" rel="stylesheet">
+    <script src="js/ie-emulation-modes-warning.js"></script>
+    <style type="text/css">
+<!--
+.Estilo1 {
+	font-size: 12px;
+	color: #FF7979;
+}
+.Estilo2 {font-size: 12px}
+.Estilo3 {color: #FF0000}
+-->
+    </style>
+</head>
+
+<body bgcolor= bgcolor="#66FF66">
+
+    <div class="container">
+
+      <form class="form-signin" style="width:350px; position:absolute ; left: 350px;background-color: #B7D3E3; layer-background-color: #B7D3E3; border: 1px none #000000;" action="login.php" method="post">
+        <h2 align="center" class="form-signin-heading">&nbsp;</h2>
+        <h2 align="center" class="form-signin-heading">&nbsp;</h2>
+        <h2 align="center" class="form-signin-heading">ACCUMAPGEO</h2>
+        <p align="center" class="form-signin-heading">&nbsp;</p>
+        <label for="inputusername" class="sr-only">Usuario</label>
+        <input type="text" name="username"  id="username" class="form-control"  placeholder="Usuario" required autofocus>
+        <label for="inputPassword" class="sr-only">Pass</label>
+        <input type="password" id="password" name="password" class="form-control" placeholder="Password" required>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Enviar</button>
+        <h2 align="center" class="form-signin-heading">&nbsp;</h2>
+        <h2 align="center" class="form-signin-heading">&nbsp;</h2>
+        <h2 align="center" class="form-signin-heading">&nbsp;</h2>        
+        <h2 align="center" class="form-signin-heading">&nbsp;</h2>
+        <span class="Estilo2"></span>
+        <h2 align="center" class="form-signin-heading">&nbsp;</h2>        
+        <h2 align="center" class="Estilo1 form-signin-heading Estilo3"><a href="http://www.accuratedata.co" target="_blank"><strong>Powered by ACCUDATA S.A.</strong></a></h2>        
+      </form>
+
+    </div> <!-- /fin container -->
+
+
+    <!-- IE10 truco para grafica en desktop Windows 8 -->
+  <script src="js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
